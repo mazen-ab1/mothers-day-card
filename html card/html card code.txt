@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mother's Day Card</title>
+	<style>
+		body {
+			background-color: pink;
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+
+		.card {
+			background-color: white;
+			border: 1px solid black;
+			padding: 20px;
+			display: none;
+		}
+
+		.btn {
+			background-color: yellow;
+			border: 1px solid black;
+			padding: 10px;
+			font-size: 20px;
+			cursor: pointer;
+		}
+	</style>
+	<script src="script.js"></script>
+</head>
+<body>
+	<h1>Happy Mother's Day!</h1>
+
+	<div class="card">
+		<p>Dear Mom,</p>
+		<p>Thank you for always being there for me and supporting me through everything. You mean the world to me, and I love you more than words can say.</p>
+		<p>Love,</p>
+		<p>Your Child</p>
+		<button onclick="closeCard()" class="btn">Close</button>
+	</div>
+
+	<button onclick="openCard()" class="btn" id="open-btn">Open Card</button>
+</body>
+</html>
